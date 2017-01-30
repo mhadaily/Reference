@@ -1,0 +1,3 @@
+# EJS 
+
+All about EJS
