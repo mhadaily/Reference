@@ -11,3 +11,7 @@ or
 pg_restore -U <username> -d <dbname> -1 <filename>.dump
 ````
 
+or 
+````postgresql
+pg_restore --host "127.0.0.1" --port "5432" --username "postgres" --no-password --dbname "mobecentral_development" --verbose dumpName
+````
